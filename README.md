@@ -1,0 +1,1 @@
+A project with Web component or modules, such as layout, kinds of small widgets.
