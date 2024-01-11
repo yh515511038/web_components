@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Light & Dark Mode</title>
+    <!-- ICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="nav">
+      <a href="#home" class="nav-link" id="nav-link">HOME</a>
+      <a href="#about" class="nav-link" id="nav-link">ABOUT</a>
+      <a href="#products" class="nav-link" id="nav-link">PRODUCTS</a>
+      <a href="#contact" class="nav-link" id="nav-link">CONTACT</a>
+    </nav>
+
+    <div class="toggle-switch" id="toggle-switch">
+      <p>Light Mode</p>
+      <i class="fa-regular fa-sun"></i>
+      <label class="switch">
+        <input type="checkbox" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <section id="home">
+      <h1>Custom Title Here</h1>
+      <h2>Welcome to aboard!</h2>
+    </section>
+
+    <section id="about">
+      <h1>About Page</h1>
+    </section>
+
+    <section id="products">
+      <div class="product-item">
+        <h2>Multiple products to choose</h2>
+        <img
+          src="images/undraw_selectoption_light.png"
+          alt="selectoption"
+          class="image1"
+        />
+      </div>
+
+      <div class="product-item">
+        <h2>Light to lift</h2>
+        <img
+          src="images/undraw_shopping_bags_light.png"
+          alt="selectoption"
+          class="image2"
+        />
+      </div>
+
+      <div class="product-item">
+        <h2>Can visit anywhere</h2>
+        <img
+          src="images/undraw_Traveling_light.png"
+          alt="selectoption"
+          class="image3"
+        />
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="button-container">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-codepen"></i>
+        <i class="fa-brands fa-linkin-in"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
